@@ -4,16 +4,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap');
 
 :root {
-  /* LIGHT THEME (Default) */
-  --bg-body: #f8fafc;
+  /* LIGHT THEME (Greenish) */
+  --bg-body: #f0fdf4;
+  /* Emerald 50 */
   --bg-card: #ffffff;
-  --bg-nav: rgba(255, 255, 255, 0.85);
-  --text-main: #000000;
-  /* Pure Black for strict request */
-  --text-muted: #334155;
-  /* Darker slate for better contrast */
-  --text-light: #f8fafc;
-  --border-color: #e2e8f0;
+  --bg-nav: rgba(240, 253, 244, 0.85);
+  /* Emerald 50 with alpha */
+  --text-main: #022c22;
+  /* Emerald 950 - Very dark green instead of pure black */
+  --text-muted: #166534;
+  /* Emerald 700 - Deep green for muted text */
+  --text-light: #ecfdf5;
+  /* Emerald 50 */
+  --border-color: #d1fae5;
+  /* Emerald 100 */
 
   --brand-primary: #10b981;
   /* Emerald 500 */
@@ -21,10 +25,11 @@
   /* Emerald 700 */
   --brand-accent: #34d399;
   /* Emerald 400 */
-  --secondary: #0f172a;
-  /* Slate 900 */
-  --secondary-light: #475569;
-  /* Slate 600 */
+
+  --secondary: #064e3b;
+  /* Emerald 900 */
+  --secondary-light: #059669;
+  /* Emerald 600 */
 
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
@@ -39,22 +44,28 @@
 }
 
 [data-theme="dark"] {
-  --bg-body: #0f172a;
-  --bg-card: #1e293b;
-  --bg-nav: rgba(15, 23, 42, 0.85);
-  --text-main: #ffffff;
-  /* Pure White for strict request */
-  --text-muted: #cbd5e1;
-  /* Lighter slate for better contrast */
-  --text-light: #e2e8f0;
-  --border-color: #334155;
+  --bg-body: #022c22;
+  /* Emerald 950 */
+  --bg-card: #064e3b;
+  /* Emerald 900 */
+  --bg-nav: rgba(2, 44, 34, 0.85);
+  --text-main: #ecfdf5;
+  /* Emerald 50 */
+  --text-muted: #6ee7b7;
+  /* Emerald 300 */
+  --text-light: #d1fae5;
+  /* Emerald 100 */
+  --border-color: #065f46;
+  /* Emerald 800 */
 
   --brand-primary: #34d399;
-  /* Emerald 400 for better contrast */
+  /* Emerald 400 */
   --brand-dark: #10b981;
-  --secondary: #f8fafc;
-  /* White/Slate 50 for secondary text */
-  --secondary-light: #cbd5e1;
+  /* Emerald 500 */
+  --secondary: #f0fdf4;
+  /* Emerald 50 */
+  --secondary-light: #a7f3d0;
+  /* Emerald 200 */
 
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
