@@ -20,6 +20,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap"
       rel="stylesheet"
@@ -46,7 +47,7 @@
           class="navbar-brand d-flex align-items-center gap-2"
           href="index.html"
         >
-          <img src="assets/Logo.jpg" alt="Six Watts logo" height="200" width="80" class="rounded" />
+          <img src="assets/Logo.jpg" alt="Six Watts logo" height="80" width="80" class="rounded" />
           <span class="fw-bold">Six Watts</span>
         </a>
 
@@ -102,8 +103,8 @@
           <!-- Slide 1 -->
           <div class="carousel-item active" style="height: 85vh; min-height: 600px;">
             <div class="overlay" style="position: absolute; inset: 0; background: linear-gradient(to right, rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.4)); z-index: 1;"></div>
-            <img src="https://placehold.co/1920x1080/10B981/FFFFFF?text=Expert+EV+Charger+Repair" class="d-block w-100 h-100 object-fit-cover" alt="EV Charger Repair">
-            <div class="carousel-caption d-none d-md-flex align-items-center h-100 text-start" style="z-index: 2; inset: 0;">
+            <img src="https://placehold.co/1920x1080/10B981/FFFFFF?text=Expert+EV+Charger+Repair" class="d-block w-100 h-100 object-fit-cover" alt="EV Charger Repair" fetchpriority="high" width="1920" height="1080">
+            <div class="carousel-caption d-flex align-items-center h-100 text-start" style="z-index: 2; inset: 0;">
                 <div class="container">
                     <div class="col-lg-8">
                         <span class="badge bg-brand text-light mb-3 px-3 py-2 rounded-pill fw-normal" style="background-color: var(--brand-primary); letter-spacing: 1px;">TRUSTED BY OEMs</span>
@@ -120,8 +121,8 @@
           <!-- Slide 2 -->
           <div class="carousel-item" style="height: 85vh; min-height: 600px;">
             <div class="overlay" style="position: absolute; inset: 0; background: linear-gradient(to right, rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.4)); z-index: 1;"></div>
-            <img src="https://placehold.co/1920x1080/065F46/FFFFFF?text=Installation+%26+Commissioning" class="d-block w-100 h-100 object-fit-cover" alt="Installation">
-            <div class="carousel-caption d-none d-md-flex align-items-center h-100 text-start" style="z-index: 2; inset: 0;">
+            <img src="https://placehold.co/1920x1080/065F46/FFFFFF?text=Installation+%26+Commissioning" class="d-block w-100 h-100 object-fit-cover" alt="Installation" loading="lazy" width="1920" height="1080">
+            <div class="carousel-caption d-flex align-items-center h-100 text-start" style="z-index: 2; inset: 0;">
                  <div class="container">
                     <div class="col-lg-8">
                         <span class="badge bg-brand text-light mb-3 px-3 py-2 rounded-pill fw-normal" style="background-color: var(--brand-primary); letter-spacing: 1px;">END-TO-END SOLUTIONS</span>
@@ -138,8 +139,8 @@
           <!-- Slide 3 -->
            <div class="carousel-item" style="height: 85vh; min-height: 600px;">
             <div class="overlay" style="position: absolute; inset: 0; background: linear-gradient(to right, rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.4)); z-index: 1;"></div>
-            <img src="https://placehold.co/1920x1080/0F172A/FFFFFF?text=Advanced+Diagnostics" class="d-block w-100 h-100 object-fit-cover" alt="Diagnostics">
-            <div class="carousel-caption d-none d-md-flex align-items-center h-100 text-start" style="z-index: 2; inset: 0;">
+            <img src="https://placehold.co/1920x1080/0F172A/FFFFFF?text=Advanced+Diagnostics" class="d-block w-100 h-100 object-fit-cover" alt="Diagnostics" loading="lazy" width="1920" height="1080">
+            <div class="carousel-caption d-flex align-items-center h-100 text-start" style="z-index: 2; inset: 0;">
                  <div class="container">
                     <div class="col-lg-8">
                         <span class="badge bg-brand text-light mb-3 px-3 py-2 rounded-pill fw-normal" style="background-color: var(--brand-primary); letter-spacing: 1px;">PRECISION ENGINEERING</span>
@@ -218,38 +219,43 @@
             src="assets/mahindra-logo.jpeg"
             alt="Mahindra"
             class="client-logo"
+            width="100"
+            height="50"
           />
-          <img src="assets/ather-logo.jpeg" alt="Ather" class="client-logo" />
+          <img src="assets/ather-logo.jpeg" alt="Ather" class="client-logo" width="100" height="50" />
           <img
             src="assets/ola-logo.jpeg"
             alt="Ola Electric"
             class="client-logo"
+            width="100" height="50"
           />
-          <img src="assets/exicom-logo.jpeg" alt="Exicom" class="client-logo" />
+          <img src="assets/exicom-logo.jpeg" alt="Exicom" class="client-logo" width="100" height="50" />
           <img
             src="assets/piaggio-logo.jpeg"
             alt="Piaggio"
             class="client-logo"
+            width="100" height="50"
           />
-          <img src="assets/Ampere.jpeg" alt="Ampere" class="client-logo" />
-          <img src="assets/Hero.jpeg" alt="Hero Electric" class="client-logo" />
+          <img src="assets/Ampere.jpeg" alt="Ampere" class="client-logo" width="100" height="50" />
+          <img src="assets/Hero.jpeg" alt="Hero Electric" class="client-logo" width="100" height="50" />
           <img
             src="assets/kineticGreen.jpeg"
             alt="Kinetic Green"
             class="client-logo"
+            width="100" height="50"
           />
-          <img src="assets/Tvs.jpeg" alt="TVS" class="client-logo" />
+          <img src="assets/Tvs.jpeg" alt="TVS" class="client-logo" width="100" height="50" />
 
           <!-- duplicate for loop -->
-          <img src="assets/mahindra-logo.jpeg" alt="" class="client-logo" />
-          <img src="assets/ather-logo.jpeg" alt="" class="client-logo" />
-          <img src="assets/ola-logo.jpeg" alt="" class="client-logo" />
-          <img src="assets/exicom-logo.jpeg" alt="" class="client-logo" />
-          <img src="assets/piaggio-logo.jpeg" alt="" class="client-logo" />
-          <img src="assets/Ampere.jpeg" alt="" class="client-logo" />
-          <img src="assets/Hero.jpeg" alt="" class="client-logo" />
-          <img src="assets/kineticGreen.jpeg" alt="" class="client-logo" />
-          <img src="assets/Tvs.jpeg" alt="" class="client-logo" />
+          <img src="assets/mahindra-logo.jpeg" alt="" class="client-logo" width="100" height="50" />
+          <img src="assets/ather-logo.jpeg" alt="" class="client-logo" width="100" height="50" />
+          <img src="assets/ola-logo.jpeg" alt="" class="client-logo" width="100" height="50" />
+          <img src="assets/exicom-logo.jpeg" alt="" class="client-logo" width="100" height="50" />
+          <img src="assets/piaggio-logo.jpeg" alt="" class="client-logo" width="100" height="50" />
+          <img src="assets/Ampere.jpeg" alt="" class="client-logo" width="100" height="50" />
+          <img src="assets/Hero.jpeg" alt="" class="client-logo" width="100" height="50" />
+          <img src="assets/kineticGreen.jpeg" alt="" class="client-logo" width="100" height="50" />
+          <img src="assets/Tvs.jpeg" alt="" class="client-logo" width="100" height="50" />
         </div>
       </div>
     </section>
@@ -517,7 +523,7 @@
         <div class="row g-4 justify-content-between">
             <div class="col-md-4">
                 <a href="index.html" class="d-flex align-items-center gap-2 mb-3 text-dark text-decoration-none">
-                    <img src="assets/Logo.jpg" alt="Six Watts" class="footer-logo rounded">
+                    <img src="assets/Logo.jpg" alt="Six Watts" class="footer-logo rounded" width="200" height="80">
                     <span class="fw-bold fs-4" style="font-family: 'Outfit', sans-serif;">Six Watts</span>
                 </a>
                 <p class="text-muted small">

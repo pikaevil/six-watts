@@ -471,3 +471,29 @@ footer a:hover {
     justify-content: flex-start;
   }
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    /* Smaller heading on mobile */
+  }
+
+  .lead {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .carousel-caption {
+    padding-bottom: 3rem;
+    /* Lift text slightly */
+  }
+
+  .btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .stat-number {
+    font-size: 2.5rem;
+  }
+}
